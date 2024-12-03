@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+}
+.header{
+    text-align: center;
+    background-color: #333; 
+    color: #FFD700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+.navbar {
+    background-color: #333; 
+    padding: 1rem;
+    display: flex;
+    justify-content: center; 
+}
+
+.navbar-list {
+    list-style: none; 
+    display: flex; 
+    gap: 2rem; 
+    margin: 0; 
+    padding: 0; 
+}
+
+.navbar-item {
+    position: relative;
+}
+
+.navbar-link {
+    text-decoration: none; 
+    color: white; 
+    font-size: 1.2rem; 
+    transition: color 0.3s ease;
+}
+
+.navbar-link:hover {
+    color: #FFD700;
+}
+
+
+.navbar-item::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 0;
+    height: 2px;
+    background: #FFD700;
+    transition: width 0.3s ease;
+}
+
+.navbar-item:hover::after {
+    width: 100%;
+}
+
+.brief-intro{
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+    gap: 20px;
+}
+
+.brief-intro img{
+    border: 4px solid black;
+    border-radius: 25%;
+}
+
+.image :hover{
+    transform: scale(1.1);
+}
+
+.intro{
+    border: 2px solid black;
+    padding-top: 3%;
+    background-color: #333;
+    color: #FFD700;
+    border-radius: 55%;
+    width: 800px;
+}
+.head-introne{
+    text-align: center;
+}
+.head-introtwo{
+    padding-top: 3%;
+    text-align: center;
+}
+.parts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6%;
+    gap: 100px;
+}
+.educational{
+    border: 2px solid black;
+    padding-top: 3%;
+    background-color: #333;
+    color: #FFD700;
+    border-radius: 20%;
+    height: 200px;
+    width: 300px;
+    text-align: center;
+}
+.headedu{
+    font-size: xx-large;
+}
+.listsedu{
+    padding-top: 5%;
+    font-size: larger;
+    
+}
+.edulist{
+    padding-top: 2%;
+    list-style-type: none;
+}
+.skills{
+    border: 2px solid black;
+    padding-top: 2%;
+    background-color: #333;
+    color: #FFD700;
+    border-radius: 20%;
+    height: 200px;
+    width: 300px;
+    text-align: center;
+}
+.headskills{
+    font-size: xx-large;
+}
+.listsskills{
+    padding-top: 3%;
+    font-size: larger;
+}
+.listskill{
+    padding-top: 2%;
+    list-style-type: none;
+}
+.projects{
+    text-align: center;
+    margin-top: 5%;
+    border: 2px solid black;
+    height: 250px;
+    width: 650px;
+    margin-left: 450px;
+    background-color: #333;
+    color: #FFD700;
+    border-radius: 20%;
+}
+.headproject{
+    padding-top: 2%;
+    font-size: xx-large;
+}
+.listspro{
+    padding-top: 2%;
+    font-size: 17px;
+}
+.list{
+    list-style-type: none;
+    padding-top: 1%;
+}
+.footer{
+    background-color: #333;
+    color: #FFD700;
+    text-align: center;
+    margin-top: 4%;
+}
+.contacthead{
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.contact a{
+    padding-left: 2%;
+}

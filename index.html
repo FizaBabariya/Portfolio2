@@ -4,64 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Portfolio</h1>
+        <h1 class="header">Portfolio</h1>
     </header>
     
 
     <main>
-        <nav>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+        <nav class="navbar">
+            <ul class="navbar-list">
+                <li class="navbar-item"><a href="#home" class="navbar-link">Home</a></li>
+                <li class="navbar-item"><a href="#about" class="navbar-link">About</a></li>
+                <li class="navbar-item"><a href="#contact" class="navbar-link">Contact</a></li>
+            </ul> 
         </nav>
-        <div style="display: flex;">
-            <img src="image2.avif" alt="" height="200px" width="210px" border-radius="5px">
-            <div style="padding-left: 2%;">
-                <h1>Fiza Babariya</h1>
-                <h2>I am a full-stack MERN developer. Keen interest in solving problems.</h2>
+        <div class="brief-intro">
+            <img src="image2.avif" alt="" height="200px" width="210px" border-radius="5px" class="image">
+            <div class="intro">
+                <h1 class="head-introne">Fiza Babariya</h1>
+                <h2 class="head-introtwo">I am a full-stack MERN developer. <br>Keen interest in solving problems.</h2>
             </div>
         </div>
         
-        <div class="educational">
-            <h2>Educational Details</h2>
-            <ul>
-                <li>10th - 92.4%</li>
-                <li>12th - 96%</li>
-                <li>clg - 9.6cgpa</li>
-            </ul>
-        </div>
-    
-        <div class="skills">
-            <h2>Skills</h2>
-            <ul>
-                <li>Web developer</li>
-                <li>Problem Solving Skills</li>
-                <li>Can speak multiple languages</li>
-                <li>has eagerness and curiosity of learning new things</li>
-            </ul>
-        </div>
+        <section class="parts">
+            <div class="educational">
+                <h2 class="headedu">Educational Details</h2>
+                <ul class="listsedu">
+                    <li class="edulist">10th - 92.4%</li>
+                    <li class="edulist">12th - 96%</li>
+                    <li class="edulist">clg - 9.6cgpa</li>
+                </ul>
+            </div>
+        
+            <div class="skills">
+                <h2 class="headskills">Skills</h2>
+                <ul class="listsskills">
+                    <li class="listskill">Web developer</li>
+                    <li class="listskill">Problem Solving Skills</li>
+                    <li class="listskill">Can speak multiple languages</li>
+                    <li class="listskill">has eagerness and curiosity of learning new things</li>
+                </ul>
+            </div>
+        </section>
 
-        <div>
-            <h2>Projects</h2>
-            <ul>
-                <li>Project 1- Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam, laudantium? </li>
-                <li>Project 2- Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam, laudantium? </li>
-                <li>Project 3- Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam, laudantium? </li>
-                <li>Project 4- Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam, laudantium? </li>
-                <li>Project 5- Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam, laudantium? </li>
+        <div class="projects">
+            <h2 class="headproject">Projects</h2>
+            <ul class="listspro">
+                <li class="list">Project 1- Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam, laudantium? </li>
+                <li class="list">Project 2- Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam, laudantium? </li>
+                <li class="list">Project 3- Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam, laudantium? </li>
+                <li class="list">Project 4- Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam, laudantium? </li>
+                <li class="list">Project 5- Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam, laudantium? </li>
             </ul>
         </div>
     </main>
 
-    <footer>
+    <footer class="footer">
         <div class="contact">
-            <h3>659848793</h3>
-            <h3>fizababriya@gmail.com</h3>
+            <h3 class="contacthead">Phone number : 6598487953</h3>
+            <a href="fizababariya@gmail.com"><img src="email.png" alt="" height="25px" width="25px"></a>
+            <a href="https://github.com/account"><img src="github.png" alt="" height="25px" width="25px"></a>
+            <a href="#"><img src="insta.jpg" alt="" height="25px" width="25px"></a>
+            <a href="www.linkedin.com/in/fiza-babariya-a94a47261"><img src="linkedin.jpg" alt="" height="25px" width="25px"></a>
         </div>
     </footer>
 </body>
